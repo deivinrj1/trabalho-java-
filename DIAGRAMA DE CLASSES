@@ -1,0 +1,10 @@
++-------------------+           +----------------+        +-------------------+
+|      Cliente     |           |   BancoDados   |        |        Loja       |
++-------------------+           +----------------+        +-------------------+
+| - id: int         |           |                |        | - nome: String     |
+| - nome: String   |           | +inserirCliente()|        | - estoque: List<>  |
+| - email: String  |           | +buscarCliente()|        |                   |
++-------------------+           | +listarClientes()|        | +venderRoupa()   |
+                               | +atualizarCliente()|       +-------------------+
+                               | +deletarCliente()  |
+                               +-------------------+
